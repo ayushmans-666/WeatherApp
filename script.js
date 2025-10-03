@@ -1,5 +1,5 @@
 // You have to replace your API keys
-const apiKey = "2b69f0a09ed8e913c159c07bf92cfef8";
+const apiKey = "Put your oen API key";
 
 const searchBtn = document.getElementById("searchBtn");
 const cityInput = document.getElementById("cityInput");
@@ -62,3 +62,4 @@ async function fetchWeather(city) {
         weatherInfo.innerHTML = `<p style="color:red;">${error.message}</p>`;
     }
 }
+
